@@ -62,7 +62,8 @@ I want to see the history (operation, date, amount, balance) of my operations
 - The directory ***src/test/java/com/bank/service*** contains unit test for our service layer.
 
 #### Note : 
-Since Martin Fowler considers not having any method within objects except getters and setters as an anti-model and calls it anemic domain model, we have tried in this kata to find the balance between anemic object and rich object by moving the logic in the domain model and leaving the checks and calls to these methods in the service.
+- Since Martin Fowler considers not having any method within objects except getters and setters as an anti-model and calls it anemic domain model, we have tried in this kata to find the balance between anemic object and rich object by moving the logic in the domain model and leaving the checks and calls to these methods in the service.
+- Since we have no persistence, we have an empty data access layer
 
 ## Setup
 

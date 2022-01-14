@@ -25,12 +25,10 @@ import static com.bank.katabank.utils.MessageUtils.STATEMENT_HEADER;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
 public class Account {
     /**
      * Account ID
      */
-    @Id
     private int id;
     /**
      * Current Balance
